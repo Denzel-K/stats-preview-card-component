@@ -39,6 +39,10 @@ p {
 .images{
     display: flex;
     position: relative;
+    border: 2px solid white;
+}
+picture {
+    width: 100%;
 }
 .img1, .img2 {
     width: 100%;
