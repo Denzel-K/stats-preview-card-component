@@ -39,6 +39,7 @@ p {
 .images{
     display: flex;
     position: relative;
+    border: none;
 }
 article {
     width: 100%;
@@ -47,6 +48,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 picture {
     width: 100%;
