@@ -83,12 +83,12 @@ picture {
 }
 .vals {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 .para-ints {
     font-size: 12px;
-    margin-top: 3px;
+    margin-top: 6px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -137,5 +137,9 @@ picture {
     }
     .ints {
         margin: 0.8rem 0;
+    }
+    .para-ints {
+        text-align: center;
+        width: 100%;
     }
 }
