@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: first baseline;
+    min-height: 100vh;
 }
 h1 {
     color: white;
@@ -45,6 +46,8 @@ p {
     position: relative;
     border: none;
     height: 100%;
+    padding: 0;
+    border: 2px solid white; 
 }
 article {
     width: 100%;
