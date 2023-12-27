@@ -35,7 +35,7 @@ p {
     flex-direction: column;
     padding: 40px;
     border-radius: 10px 0 0 10px;
-    border: 1px solid white;
+    border: none;
 }
 .images{
     display: flex;
