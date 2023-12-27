@@ -84,9 +84,16 @@ picture {
 .ints {
     margin: 0 2.4rem;
 }
+.vals {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
 .para-ints {
+    text-align: center;
     font-size: 12px;
     margin-top: 3px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 
