@@ -61,7 +61,7 @@ picture {
 }
 .highlight {
     position: absolute;
-    background-color: (277, 64%, 61%);
+    background-color: hsl(277, 64%, 61%);
     opacity: 60%;
     width:100%;
     height: 100%;
@@ -82,7 +82,7 @@ picture {
     background: transparent;
 }
 .ints {
-    margin: 0 1.8rem;
+    margin: 0 2.4rem;
 }
 .para-ints {
     font-size: 12px;
@@ -137,6 +137,6 @@ picture {
         flex-direction: column;
     }
     .ints {
-        margin: 1.2re 0;
+        margin: 1.2rem 0;
     }
 }
