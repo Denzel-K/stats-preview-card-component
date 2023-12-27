@@ -17,9 +17,12 @@ p {
 }
 .container {
     background-color: hsl(233, 47%, 7%);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+   /* display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;*/
     justify-content: center;
     padding: 100px;
 }
@@ -115,10 +118,12 @@ picture {
         background-color: hsl(233, 47%, 7%);
         display: flex;
         flex-direction: column-reverse;
-        padding: 20px;
+        padding: 1rem;
+        justify-contnt: center;
+        align-items: center;
     }
     .box, .images {
-        width: auto;
+        width: 100%;
     }
     .highlight, .img1, .img2 {
         border-radius: 10px 10px 0 0;
