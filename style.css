@@ -26,9 +26,6 @@ p {
     justify-content: center;
     padding: 100px;
 }
-.box, .images {
-    width: 48%;
-}
 .box {
     background-color: hsl(244, 38%, 16%);
     display: flex;
