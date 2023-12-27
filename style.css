@@ -62,7 +62,7 @@ picture {
 .highlight {
     position: absolute;
     background-color: hsl(277, 64%, 61%);
-    opacity: 60%;
+    opacity: 50%;
     width:100%;
     height: 100%;
     top: 0;
@@ -71,7 +71,7 @@ picture {
 }
 .highlight:hover {
     background-color: hsl(277, 64%, 55%);
-    opacity: 50%;
+    opacity: 60%;
 }
 .details {
     display: flex;
@@ -120,8 +120,12 @@ picture {
     .box, .images {
         width: auto;
     }
+    .highlight, .img1, .img2 {
+        border-radius: 5% 5% 0 0;
+    }
     .box {
         padding: 20px;
+        border-radius: 0 0 5% 5%;
     }
     .details {
         justify-content: center;
@@ -129,6 +133,6 @@ picture {
         flex-direction: column;
     }
     .ints {
-        margin: 1.2rem 0;
+        margin: 0.8rem 0;
     }
 }
