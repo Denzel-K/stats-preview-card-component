@@ -19,10 +19,13 @@ p {
     background-color: hsl(233, 47%, 7%);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 100px;
 }
 .box, .images {
-    width: 48%;}
+    width: 48%;
+}
 .box {
     background-color: hsl(244, 38%, 16%);
     display: flex;
@@ -31,7 +34,7 @@ p {
     align-content: center;
     flex-direction: column;
     padding: 40px;
-    border-radius: 5% 0 0 5%;
+    border-radius: 10px 0 0 10px;
 }
 .images{
     display: flex;
@@ -54,7 +57,7 @@ picture {
 .img1, .img2 {
     width: 100%;
     height: 100%;
-    border-radius: 0 5% 5% 0;
+    border-radius: 0 10px 10px 0;
 }
 .highlight {
     position: absolute;
@@ -63,7 +66,7 @@ picture {
     width:100%;
     height: 100%;
     top: 0;
-    border-radius: 0 5% 5% 0;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
 .highlight:hover {
@@ -77,6 +80,7 @@ picture {
     flex-direction: row;
     border-radius: 10px;
     background: transparent;
+    padding: 1.8rem 0 1.4rem 0;
 }
 .ints {
     margin: 0 2.4rem;
@@ -116,19 +120,20 @@ picture {
         width: auto;
     }
     .highlight, .img1, .img2 {
-        border-radius: 5% 5% 0 0;
+        border-radius: 10px 10px 0 0;
     }
     .box {
         padding: 20px;
-        border-radius: 0 0 5% 5%;
+        border-radius: 0 0 10px 10px;
     }
     .details {
         justify-content: center;
         align-items: cnter;
         flex-direction: column;
+        padding: 1rem 0;
     }
     .ints {
-        margin: 0.8rem 0;
+        margin: 1rem 0;
     }
     .para-ints {
         display: flex;
