@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: hsl(233, 47%, 7%);
     display: flex;
     flex-direction: column;
@@ -7,10 +8,10 @@ body {
     justify-content: first baseline;
     min-height: 100vh;
 }
-h1 {
+.h1 {
     color: white;
-    font-size: 42px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
 }
 .insight {
     color: hsl(277, 64%, 61%);
@@ -45,7 +46,7 @@ p {
     display: flex;
     position: relative;
     height: 100%;
-    padding: 0; 
+    padding: 0;
 }
 article {
     width: 100%;
@@ -107,11 +108,12 @@ picture {
     .container{
         width: 90%;
     }
+    .h1 {
+        font-size: 36px;
+    }
 }
 @media (max-width: 600px) {
-    h1 {
-        font-size: 32px;
-    }
+
     .insight {
         color: hsl(277, 64%, 61%);
     }
@@ -125,34 +127,42 @@ picture {
         background-color: hsl(233, 47%, 7%);
         display: flex;
         flex-direction: column-reverse;
-        padding: 1rem;
     }
-    .box, .images, .article, .img1, .img2 {
+    /* .box, .images, .article, .img1, .img2 {
         width: 100%;
-    }
+    } */
     .highlight, .img1, .img2 {
         border-radius: 10px 10px 0 0;
     }
     .box {
-        padding: 1rem;
+        width: auto;
+        padding: 0.8rem;
         border-radius: 0 0 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .details {
         justify-content: center;
-        align-items: cnter;
+        align-items: center;
         flex-direction: column;
         padding: 1rem 0;
+        margin: 0;
     }
     .ints {
         margin: 1rem 0;
     }
-    .test {
-        padding: 1rem;
-    }
-    .para-ints {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .para-ints, .vals {
+        text-align: center;
         width: 100%;
+    }
+    .h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    p {
+        font-size: 14px;
+        text-align: center;
     }
 }
